@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathy - Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.png" alt="Weathy Logo" id="logo">
+        <div id="center">
+            <h2>Welcome to Weathy</h2>
+            <p id="tagline">Find your city weather</p>
+        </div>
+        <div id="right">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="getWeather">Get Weather</button>
+        </div>
+    </nav>
+
+    <main class="mainarea">
+        <!-- 10-Day Forecast Sidebar (Left Side) -->
+        <aside id="dayweather"></aside>
+
+        <!-- Current Weather Section (Right Side) -->
+        <section class="curweather">
+            <div class="weather-main">
+                <div class="weather-info">
+                    <h1 id="cityName">City Name</h1>
+                    <h2 id="temperature">--°C</h2>
+                    <h3 id="condition">Condition</h3>
+                </div>
+                <img id="weatherIcon" src="" alt="Weather Icon">
+            </div>
+
+            <div class="weather-stats">
+                <p>Humidity: <span id="humidity">--</span>%</p>
+                <p>Pressure: <span id="pressure">--</span> hPa</p>
+                <p>Visibility: <span id="visibility">--</span> km</p>
+            </div>
+
+            <div class="extra-details">
+                <div class="detail-box">Sunrise: <span id="sunrise">--</span></div>
+                <div class="detail-box">Sunset: <span id="sunset">--</span></div>
+                <div class="detail-box">Wind Speed: <span id="windSpeed">--</span> km/h</div>
+                <div class="detail-box">Wind Direction: <span id="windDirection">--</span></div>
+                <div class="detail-box">High Temp: <span id="highTemp">--</span>°C</div>
+                <div class="detail-box">Low Temp: <span id="lowTemp">--</span>°C</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
