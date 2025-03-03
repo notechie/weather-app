@@ -2,6 +2,10 @@
 
 Weathy is a simple weather application that fetches and displays current and 10-day forecast weather details for any city worldwide. It provides weather conditions, temperature, humidity, pressure, wind details, sunrise/sunset times, and more.
 
+## Screenshot
+
+![Weathy Weather App](./sample.png)
+
 ## Features
 - Fetch current weather details for a given city.
 - Display a 10-day weather forecast with icons.
